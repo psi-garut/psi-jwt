@@ -3,9 +3,6 @@ Simple JSON Web Token as PHP7's extension
 
 This is my initial upload for this project.
 
-# psi-jwt
-Simple JWT (JSON Web Token) as php7’s extension
-
 it has decent supports for RSA and HMACSHA algorithms and hash-generators.
 
 ```zephir
