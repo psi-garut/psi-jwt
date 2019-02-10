@@ -79,7 +79,7 @@ this is simple raw sample of usage with Phalcon extension.
 public function jwtAction()
 {
     $this->view->disable();
-
+    /*
     $h = array(
         "alg" => "RMD160",
         "typ" => "JWT",
@@ -96,6 +96,7 @@ public function jwtAction()
         "iat" => "1547059132",
         "jti" => "jti",
     );
+    */
     if ($this->request->isSecure()) {
         if ($this->request->hasHeader('Authorization')) {
             $auth0 = explode(" ", $this->request->getHeader('Authorization'));
